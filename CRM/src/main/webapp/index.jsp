@@ -192,7 +192,7 @@ $('.change_Password').on('click', function(){
   $('#Exit_system').on('click', function(){
       layer.confirm('是否确定退出系统？', {
      btn: ['是','否'] ,//按钮
-	 icon:2,
+	 icon:0,
     }, 
 	function(){
 	  location.href="logout";
@@ -230,7 +230,7 @@ $('.change_Password').on('click', function(){
 							</ul>
 						</li>
 	                   <li class="purple">
-						<!-- <a data-toggle="dropdown" class="dropdown-toggle" href="#"><i class="icon-bell-alt"></i><span class="badge badge-important">8</span></a> -->
+						<a data-toggle="dropdown" class="dropdown-toggle" href="#" style="height: 45px;"><i class="icon-bell-alt"></i><span class="badge badge-important">8</span></a>
 							<ul class="pull-right dropdown-navbar navbar-pink dropdown-menu dropdown-caret dropdown-close">
                             <li class="dropdown-header"><i class="icon-warning-sign"></i>8条通知</li>
                             <li>
